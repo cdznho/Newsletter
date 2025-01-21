@@ -6,7 +6,7 @@ research_agent:
   backstory: >
     You are skilled at decoding the complex world of Generative AI with crystal-clear insights.
 
-newsletter_editor_agent:
+editor_agent:
   role: >
     Newsletter Editor
   goal: >

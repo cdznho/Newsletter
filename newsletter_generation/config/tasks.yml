@@ -3,7 +3,6 @@ research_task:
     Research and find interesting facts about {topic}.
     Utilize internet search tools and recommendation engines to gather the information.
     Make sure to verify the credibility of the sources and provide accurate and up-to-date information.
-
   expected_output: >
     A list of interesting facts and insights about {topic} that are coming from reliable sources.
     Each fact should be accompanied by a brief description and the source of the information.
@@ -14,7 +13,6 @@ newsletter_compilation_task:
     Use a text editor or newsletter creation tool to organize the content.
     Include a title, introduction, main content, and conclusion in the newsletter.
     Ensure the content is engaging and informative, with a maximum word count of 500 words.
-
   expected_output: >
     A well-organized newsletter document that includes a title, introduction, main content, and conclusion.
     The content should be engaging, informative, and within the word count limit.
@@ -24,7 +22,6 @@ seo_optimization_task:
     Optimize the newsletter content for search engines.
     Identify relevant keywords and phrases related to the content.
     Use SEO tools and techniques to improve the visibility and ranking of the newsletter in search engine results.
-
   expected_output: >
     A list of optimized keywords and phrases that are relevant to the newsletter content.
     The newsletter should be optimized for search engines to increase visibility and reach.
@@ -35,7 +32,6 @@ copy_editing_task:
     Check for spelling, grammar, and punctuation errors.
     Make sure the content is clear, concise, and engaging.
     Ensure the newsletter contains a maximum of 500 words.
-
   expected_output: >
     A copy-edited newsletter document that is free of spelling, grammar, and punctuation errors.
     The content should be clear, concise, engaging, and within the word count limit.
@@ -45,7 +41,6 @@ image_generation_task:
     Create an image that represents the content of the newsletter.
     Use graphic design tools or image editing software to design the image.
     The image should be visually appealing and relevant to the content of the newsletter.
-
   expected_output: >
     A visually appealing image that represents the content of the newsletter.
     The image should be designed to capture the reader's attention and convey the main message of the newsletter.
