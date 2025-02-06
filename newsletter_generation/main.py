@@ -1,13 +1,11 @@
-#!/usr/bin/env python
+from newsletter_generation.newsletter_crew import NewsletterCrew
 import sys
-from newsletter.newsletter_crew import NewsLetterCrew
-
 
 def run():
     inputs = {
         'topic': 'direct preference optimization'
     }
-    result = NewsLetterCrew().crew().kickoff(inputs=inputs)
+    result = NewsletterCrew().crew().kickoff(inputs=inputs)
     print(result)
 
 
@@ -19,7 +17,7 @@ def train():
         'topic': 'direct preference optimization'
     }
     try:
-        NewsLetterCrew().crew().train(n_iterations=int(sys.argv[1]), inputs=inputs)
+        NewsletterCrew().crew().train(n_iterations=int(sys.argv[1]), inputs=inputs)
 
     except Exception as e:
         raise Exception(f"An error occurred while training the crew: {e}")

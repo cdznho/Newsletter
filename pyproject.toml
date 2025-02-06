@@ -1,14 +1,15 @@
 [tool.poetry]
-name = "newsletter"
+name = "newsletter_generation"
 version = "0.1.0"
 description = "newslettercrew"
-authors = ["Cedric DS cedricdeschaut1@gmail.com"]
+authors = ["Cdznho <cedricdeschaut1@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = ">=3.10,<=3.13"
+python = ">=3.10,<3.13"
 crewai = { extras = ["tools"], version = "^0.85.0" }
 crewai-tools = "^0.14.0"
 pip = "^24.1.1"
+onnxruntime = "1.19.2"
 
 [tool.poetry.scripts]
 newsletter_run = "newsletter_generation.main:run"
